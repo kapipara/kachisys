@@ -1,0 +1,11 @@
+git clone https://github.com/adafruit/Adafruit_Python_PCA9685.git
+git clone https://github.com/adafruit/Adafruit_Python_GPIO.git
+git clone https://github.com/adafruit/Adafruit_Python_PureIO.git
+sudo python setup.py install
+
+sudo raspi-config
+	>Interfaces Option
+		>i2c
+		>GPIO remote
+
+
