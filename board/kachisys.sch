@@ -347,134 +347,6 @@ FT231X
 </deviceset>
 </devicesets>
 </library>
-<library name="linear-technology" urn="urn:adsk.eagle:library:261">
-<description>&lt;b&gt;Linear Technology Devices&lt;/b&gt;&lt;p&gt;
-http://www.linear-tech.com&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SOIC8" urn="urn:adsk.eagle:footprint:15990/1" library_version="2">
-<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
-<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
-<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
-<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
-<text x="-2.667" y="-1.905" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="3.937" y="-1.905" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
-<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
-<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
-<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
-<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
-<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
-<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
-</package>
-</packages>
-<packages3d>
-<package3d name="SOIC8" urn="urn:adsk.eagle:package:16057/1" type="box" library_version="2">
-<description>Small Outline IC</description>
-<packageinstances>
-<packageinstance name="SOIC8"/>
-</packageinstances>
-</package3d>
-</packages3d>
-<symbols>
-<symbol name="LT1129" urn="urn:adsk.eagle:symbol:15986/1" library_version="2">
-<wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
-<text x="-2.032" y="-6.604" size="1.524" layer="95">GND</text>
-<text x="-7.62" y="6.35" size="1.778" layer="95">&gt;NAME</text>
-<text x="2.54" y="6.35" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="IN" x="-10.16" y="2.54" length="short" direction="in"/>
-<pin name="OUT" x="10.16" y="2.54" length="short" direction="out" rot="R180"/>
-<pin name="!SHDN" x="-10.16" y="-2.54" length="short" direction="in"/>
-<pin name="SENSE" x="10.16" y="0" length="short" direction="in" rot="R180"/>
-<pin name="GND" x="0" y="-10.16" visible="pad" length="short" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="GND" urn="urn:adsk.eagle:symbol:15988/1" library_version="2">
-<text x="-2.54" y="7.62" size="1.778" layer="95">&gt;NAME</text>
-<pin name="GND" x="0" y="-2.54" length="short" direction="pwr" rot="R90"/>
-</symbol>
-<symbol name="NC" urn="urn:adsk.eagle:symbol:15989/1" library_version="2">
-<text x="0.762" y="1.016" size="1.778" layer="95" rot="R90">&gt;NAME</text>
-<pin name="NC" x="0" y="-2.54" visible="pad" length="short" direction="nc" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="LT1963ES8" urn="urn:adsk.eagle:component:16089/1" prefix="IC" library_version="2">
-<description>&lt;b&gt;1.5A, Low Noise, Fast Transient Response LDO Regulator&lt;/b&gt;&lt;p&gt;
-Source: http://www.linear.com/pc/downloadDocument.do?navId=H0,C3,P2222,D3148</description>
-<gates>
-<gate name="G$1" symbol="LT1129" x="0" y="0"/>
-<gate name="G1" symbol="GND" x="25.4" y="-5.08" addlevel="request"/>
-<gate name="G2" symbol="GND" x="30.48" y="-5.08" addlevel="request"/>
-<gate name="NC" symbol="NC" x="35.56" y="-5.08" addlevel="request"/>
-</gates>
-<devices>
-<device name="" package="SOIC8">
-<connects>
-<connect gate="G$1" pin="!SHDN" pad="5"/>
-<connect gate="G$1" pin="GND" pad="3"/>
-<connect gate="G$1" pin="IN" pad="8"/>
-<connect gate="G$1" pin="OUT" pad="1"/>
-<connect gate="G$1" pin="SENSE" pad="2"/>
-<connect gate="G1" pin="GND" pad="6"/>
-<connect gate="G2" pin="GND" pad="7"/>
-<connect gate="NC" pin="NC" pad="4"/>
-</connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:16057/1"/>
-</package3dinstances>
-<technologies>
-<technology name="">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="LT1963ES8" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="57M7550" constant="no"/>
-</technology>
-<technology name="-1.5">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="LT1963ES8-1.5" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="57M7551" constant="no"/>
-</technology>
-<technology name="-1.8">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="LT1963ES8-1.8" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="57M7555" constant="no"/>
-</technology>
-<technology name="-2.5">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="LT1963ES8-2.5" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="57M7559" constant="no"/>
-</technology>
-<technology name="-3.3">
-<attribute name="MF" value="" constant="no"/>
-<attribute name="MPN" value="LT1963ES8-3.3" constant="no"/>
-<attribute name="OC_FARNELL" value="unknown" constant="no"/>
-<attribute name="OC_NEWARK" value="57M7563" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="supply1" urn="urn:adsk.eagle:library:371">
 <description>&lt;b&gt;Supply Symbols&lt;/b&gt;&lt;p&gt;
  GND, VCC, 0V, +5V, -5V, etc.&lt;p&gt;
@@ -14220,6 +14092,21 @@ Metric Code Size 5664</description>
 <text x="3" y="10" size="1.27" layer="25">&gt;NAME</text>
 <text x="3" y="-11" size="1.27" layer="27">&gt;VALUE</text>
 </package>
+<package name="SOT233">
+<description>&lt;b&gt;KC-3 (SOT-223)&lt;/b&gt;&lt;br&gt;
+</description>
+<smd name="1" x="-3.15" y="2.3" dx="1.75" dy="0.95" layer="1"/>
+<smd name="2" x="-3.15" y="0" dx="1.75" dy="0.95" layer="1"/>
+<smd name="3" x="-3.15" y="-2.3" dx="1.75" dy="0.95" layer="1"/>
+<smd name="4" x="3.15" y="0" dx="3.2" dy="1.75" layer="1" rot="R90"/>
+<text x="0" y="-4.826" size="1.27" layer="25" align="center">&gt;NAME</text>
+<text x="0" y="4.572" size="1.27" layer="27" align="center">&gt;VALUE</text>
+<wire x1="-1.925" y1="3.25" x2="1.925" y2="3.25" width="0.2" layer="21"/>
+<wire x1="1.925" y1="3.25" x2="1.925" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="1.925" y1="-3.25" x2="-1.925" y2="-3.25" width="0.2" layer="21"/>
+<wire x1="-1.925" y1="-3.25" x2="-1.925" y2="3.25" width="0.2" layer="21"/>
+<wire x1="-4.025" y1="3.125" x2="-2.275" y2="3.125" width="0.2" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="LGA-8-2.5X2.5" urn="urn:adsk.eagle:package:39984/1" locally_modified="yes" type="box">
@@ -14365,6 +14252,17 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <wire x1="-2.794" y1="3.048" x2="1.524" y2="3.048" width="0.254" layer="94"/>
 <wire x1="-2.794" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
 </symbol>
+<symbol name="ADP3338AKCZ-3.3-RL">
+<pin name="IN" x="-12.7" y="0" length="middle" direction="pas"/>
+<pin name="OUT" x="12.7" y="0" length="middle" direction="pas" rot="R180"/>
+<pin name="GND" x="0" y="-12.7" length="middle" direction="pas" rot="R90"/>
+<wire x1="-7.62" y1="2.54" x2="-7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="-7.62" y1="-7.62" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="7.62" y2="2.54" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="2.54" x2="-7.62" y2="2.54" width="0.1524" layer="94"/>
+<text x="-9.8044" y="6.5786" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-10.4394" y="4.0386" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ESP-WROOM-32" prefix="U">
@@ -14500,6 +14398,23 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
 <connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ADP3338AKCZ-3.3" prefix="U">
+<gates>
+<gate name="A" symbol="ADP3338AKCZ-3.3-RL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOT233">
+<connects>
+<connect gate="A" pin="GND" pad="1"/>
+<connect gate="A" pin="IN" pad="3"/>
+<connect gate="A" pin="OUT" pad="2 4"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -14730,7 +14645,6 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <parts>
 <part name="C1" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2" value="22μF"/>
 <part name="U1" library="SparkFun-IC-Comms" library_urn="urn:adsk.eagle:library:521" deviceset="FT231X" device="S" package3d_urn="urn:adsk.eagle:package:38726/1" value="FT231XS"/>
-<part name="IC1" library="linear-technology" library_urn="urn:adsk.eagle:library:261" deviceset="LT1963ES8" device="" package3d_urn="urn:adsk.eagle:package:16057/1" technology="-3.3"/>
 <part name="C2" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C2012" package3d_urn="urn:adsk.eagle:package:23625/2" value="22μF"/>
 <part name="+3V1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="RX" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIP-LED0603" package3d_urn="urn:adsk.eagle:package:15819/3"/>
@@ -14872,6 +14786,7 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <part name="C21" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="C-EU" device="C0603" package3d_urn="urn:adsk.eagle:package:23616/2" value="0.1μF"/>
 <part name="GND31" library="180118 Library by matsu" library_urn="urn:adsk.eagle:library:5572060" deviceset="GND" device=""/>
 <part name="GND32" library="180118 Library by matsu" library_urn="urn:adsk.eagle:library:5572060" deviceset="GND" device=""/>
+<part name="U4" library="taki-library" deviceset="ADP3338AKCZ-3.3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -14954,7 +14869,6 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <instance part="R7" gate="G$1" x="-83.82" y="-68.58" rot="R180"/>
 <instance part="R8" gate="G$1" x="-83.82" y="-83.82" rot="R180"/>
 <instance part="C1" gate="G$1" x="111.76" y="68.58"/>
-<instance part="IC1" gate="G$1" x="129.54" y="71.12"/>
 <instance part="C2" gate="G$1" x="147.32" y="68.58"/>
 <instance part="+3V4" gate="G$1" x="162.56" y="83.82"/>
 <instance part="POWER" gate="G$1" x="162.56" y="55.88" rot="MR0"/>
@@ -15108,6 +15022,7 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 </instance>
 <instance part="GND31" gate="1" x="-88.9" y="-154.94"/>
 <instance part="GND32" gate="1" x="-78.74" y="-154.94"/>
+<instance part="U4" gate="A" x="129.54" y="73.66"/>
 </instances>
 <busses>
 </busses>
@@ -15233,11 +15148,6 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <pinref part="C2" gate="G$1" pin="2"/>
 <wire x1="147.32" y1="50.8" x2="147.32" y2="63.5" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="129.54" y1="50.8" x2="129.54" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="GND17" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
@@ -15375,6 +15285,11 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <wire x1="-78.74" y1="-144.78" x2="-78.74" y2="-152.4" width="0.1524" layer="91"/>
 <pinref part="GND32" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="U4" gate="A" pin="GND"/>
+<pinref part="GND17" gate="1" pin="GND"/>
+<wire x1="129.54" y1="60.96" x2="129.54" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="+3V3" class="1">
 <segment>
@@ -15436,23 +15351,17 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <pinref part="+3V9" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="OUT"/>
-<wire x1="139.7" y1="73.66" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="SENSE"/>
-<wire x1="142.24" y1="73.66" x2="144.78" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="139.7" y1="71.12" x2="142.24" y2="71.12" width="0.1524" layer="91"/>
-<wire x1="142.24" y1="71.12" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
-<junction x="142.24" y="73.66"/>
-<wire x1="144.78" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
 <pinref part="C2" gate="G$1" pin="1"/>
 <wire x1="147.32" y1="73.66" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="147.32" y1="73.66" x2="147.32" y2="71.12" width="0.1524" layer="91"/>
-<junction x="147.32" y="73.66"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <wire x1="162.56" y1="73.66" x2="162.56" y2="81.28" width="0.1524" layer="91"/>
 <junction x="162.56" y="73.66"/>
 <pinref part="R9" gate="G$1" pin="2"/>
 <wire x1="162.56" y1="71.12" x2="162.56" y2="73.66" width="0.1524" layer="91"/>
+<pinref part="U4" gate="A" pin="OUT"/>
+<wire x1="142.24" y1="73.66" x2="147.32" y2="73.66" width="0.1524" layer="91"/>
+<junction x="147.32" y="73.66"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
@@ -16233,19 +16142,14 @@ http://akizukidenshi.com/download/2DC-0005D100.pdf</description>
 <pinref part="J9" gate="G$1" pin="1"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="IN"/>
-<wire x1="111.76" y1="73.66" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="73.66" x2="119.38" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="IC1" gate="G$1" pin="!SHDN"/>
-<wire x1="119.38" y1="68.58" x2="116.84" y2="68.58" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="68.58" x2="116.84" y2="73.66" width="0.1524" layer="91"/>
-<junction x="116.84" y="73.66"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="111.76" y1="71.12" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="73.66" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
-<junction x="111.76" y="73.66"/>
 <wire x1="101.6" y1="73.66" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="P+7" gate="1" pin="+5V"/>
+<pinref part="U4" gate="A" pin="IN"/>
+<wire x1="116.84" y1="73.66" x2="111.76" y2="73.66" width="0.1524" layer="91"/>
+<junction x="111.76" y="73.66"/>
 </segment>
 </net>
 <net name="IO4" class="0">
