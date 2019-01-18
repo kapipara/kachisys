@@ -1,0 +1,91 @@
+Partlist exported from C:/Users/ichi-/Documents/kapi/kachisys/board/kachisys.sch at 2019/01/18 17:25
+
+Part  Value                 Device                Package                        Description                                                
+C1    22μF                  C-EUC2012             C2012                          CAPACITOR, European symbol                                 
+C2    22μF                  C-EUC2012             C2012                          CAPACITOR, European symbol                                 
+C3    UWT1E221MNL1GS        UWT1E221MNL1GS        NICHICON-ALMINUM-CAPACITOR-8MM                                                            
+C4    0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C5    0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C6    100μF                 C-EUC3225             C3225                          CAPACITOR, European symbol                                 
+C7    1000pF                C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C8    1000pF                C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C9    47pF                  C-EUC1608             C1608                          CAPACITOR, European symbol                                 
+C10   1000pF                C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C11   47pF                  C-EUC1608             C1608                          CAPACITOR, European symbol                                 
+C12   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C13   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C14   1000pF                C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C15   1000pF                C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C16   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C17   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C18   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C19   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C20   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+C21   0.1μF                 C-EUC0603             C0603                          CAPACITOR, European symbol                                 
+J1    S3B-PH-SM4-TB(LF)(SN) S3B-PH-SM4-TB(LF)(SN) JST_S3B-PH-SM4-TB(LF)(SN)      CONN HEADER PH SIDE 3POS 2MM SMD                           
+J2    S3B-PH-SM4-TB(LF)(SN) S3B-PH-SM4-TB(LF)(SN) JST_S3B-PH-SM4-TB(LF)(SN)      CONN HEADER PH SIDE 3POS 2MM SMD                           
+J3    S3B-PH-SM4-TB(LF)(SN) S3B-PH-SM4-TB(LF)(SN) JST_S3B-PH-SM4-TB(LF)(SN)      CONN HEADER PH SIDE 3POS 2MM SMD                           
+J4    S3B-PH-SM4-TB(LF)(SN) S3B-PH-SM4-TB(LF)(SN) JST_S3B-PH-SM4-TB(LF)(SN)      CONN HEADER PH SIDE 3POS 2MM SMD                           
+J5    S3B-PH-SM4-TB(LF)(SN) S3B-PH-SM4-TB(LF)(SN) JST_S3B-PH-SM4-TB(LF)(SN)      CONN HEADER PH SIDE 3POS 2MM SMD                           
+J6    S3B-PH-SM4-TB(LF)(SN) S3B-PH-SM4-TB(LF)(SN) JST_S3B-PH-SM4-TB(LF)(SN)      CONN HEADER PH SIDE 3POS 2MM SMD                           
+J7    S3B-PH-SM4-TB(LF)(SN) S3B-PH-SM4-TB(LF)(SN) JST_S3B-PH-SM4-TB(LF)(SN)      CONN HEADER PH SIDE 3POS 2MM SMD                           
+J8    ZX62R-AB-5P           ZX62R-AB-5P           ZX62R-B-5PA                                                                               
+J9    2DC-0415D200          2DC-0415D200          2DC-0415D200                                                                              
+LED1  WS2812B_5050N         WS2812B_5050N         WS2812B-NARROW                                                                            
+LED2  WS2812B_5050N         WS2812B_5050N         WS2812B-NARROW                                                                            
+LED3  WS2812B_5050N         WS2812B_5050N         WS2812B-NARROW                                                                            
+LED4  WS2812B_5050N         WS2812B_5050N         WS2812B-NARROW                                                                            
+LED5  WS2812B_5050N         WS2812B_5050N         WS2812B-NARROW                                                                            
+LED6  WS2812B_5050N         WS2812B_5050N         WS2812B-NARROW                                                                            
+POWER                       LEDCHIP-LED0603       CHIP-LED0603                   LED                                                        
+Q1                          BSS138                SOT-23                                                                                    
+Q2                          BSS138                SOT-23                                                                                    
+Q3                          BSS138                SOT-23                                                                                    
+Q4                          BSS138                SOT-23                                                                                    
+Q5                          BSS138                SOT-23                                                                                    
+Q6                          BSS138                SOT-23                                                                                    
+Q7                          BSS138                SOT-23                                                                                    
+R1    1k                    R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R2    1k                    R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R3    10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R4    470                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R5    10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R6    470                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R7    10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R8    10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R9    1k                    R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R10   27                    R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R11   27                    R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R12   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R13   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R14   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R15   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R16   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R17   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R18   4.7k                  R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R19   4.7k                  R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R20   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R21   470                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R22   10k                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R23   510                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R24   510                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R25   510                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R26   510                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R27   510                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+R28   510                   R-EU_R0603            R0603                          RESISTOR, European symbol                                  
+RX                          LEDCHIP-LED0603       CHIP-LED0603                   LED                                                        
+SW1   EN_SW                 DTS6_SMD              SKRPACE010                                                                                
+SW2   IO0_SW                DTS6_SMD              SKRPACE010                                                                                
+T1    MMSS8050              -NPN-SOT23-EBC        SOT23-EBC                      NPN Transistror                                            
+T2    MMSS8050              -NPN-SOT23-EBC        SOT23-EBC                      NPN Transistror                                            
+TPAD1 ESP32-TOUCHPAD        ESP32-TOUCHPAD        ESP32-TOUCHPAD-10MM                                                                       
+TPAD2 ESP32-TOUCHPAD        ESP32-TOUCHPAD        ESP32-TOUCHPAD-10MM                                                                       
+TPAD3 ESP32-TOUCHPAD        ESP32-TOUCHPAD        ESP32-TOUCHPAD-10MM                                                                       
+TPAD4 ESP32-TOUCHPAD        ESP32-TOUCHPAD        ESP32-TOUCHPAD-10MM                                                                       
+TPAD5 ESP32-TOUCHPAD        ESP32-TOUCHPAD        ESP32-TOUCHPAD-10MM                                                                       
+TPAD6 ESP32-TOUCHPAD        ESP32-TOUCHPAD        ESP32-TOUCHPAD-10MM                                                                       
+TX                          LEDCHIP-LED0603       CHIP-LED0603                   LED                                                        
+U1    FT231XS               FT231XS               SSOP20_L                       FTDI FT231X Full Speed USB to Full-handshake UART          
+U2    ESP-WROOM-32          ESP-WROOM-32          ESP-WROOM-32                                                                              
+U3    BME280                BME280                LGA-8-2.5X2.5                  Bosch BME280 &ndash; Combined Humidity and Pressure Sensor 
+U4    ADP3338AKCZ-3.3       ADP3338AKCZ-3.3       SOT233                                                                                    
